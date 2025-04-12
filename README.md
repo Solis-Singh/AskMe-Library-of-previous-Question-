@@ -19,7 +19,8 @@ An elegant Android application developed using **Java** and **Android Studio**, 
 
 ## 📸 Screenshots
 
-![Screenshot 2025-04-12 190936](https://github.com/user-attachments/assets/9eed06da-071b-445c-993c-be92744f2273)
+![Screenshot 2025-04-12 191306](https://github.com/user-attachments/assets/540b35ac-c89c-4307-8fcd-346fa94bb162)
+
 
 
 
