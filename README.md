@@ -50,6 +50,9 @@ app/ ├── java/ │ └── com/yourpackage/ │ ├── activities/ �
 
 📫 Contact
 Feel free to reach out if you have suggestions or feedback:
-Name: Suraj Prakash  
+
+Name: Suraj Prakash 
+
 Email: solissingh@gmail.com
+
 College: L.N. Mishra College Of Business Mangement, Bhagwanpur, Muzaffarpur, 842001.
