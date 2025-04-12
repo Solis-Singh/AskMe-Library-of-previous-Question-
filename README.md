@@ -19,7 +19,11 @@ An elegant Android application developed using **Java** and **Android Studio**, 
 
 ## 📸 Screenshots
 
-_Add screenshots here if you have them._
+![Screenshot_20250412_182955_Ask me](https://github.com/user-attachments/assets/801b1807-017f-425a-9be1-a02ffd4cd0b4)
+![Screenshot_20250412_183001_Ask me](https://github.com/user-attachments/assets/7046d91d-305f-453d-b374-42938793d444)
+![Screenshot_20250412_183007_Ask me](https://github.com/user-attachments/assets/b403832b-c42f-4ca8-93a8-2aaec3109f75)
+![Screenshot_20250412_183016_Ask me](https://github.com/user-attachments/assets/a44732f7-9552-4cc1-9d6b-4437fbc76920)
+
 
 ---
 
@@ -49,6 +53,7 @@ app/ ├── java/ │ └── com/yourpackage/ │ ├── activities/ �
 
 
 📫 Contact
+
 Feel free to reach out if you have suggestions or feedback:
 
 Name: Suraj Prakash 
