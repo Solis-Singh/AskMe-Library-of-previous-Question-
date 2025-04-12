@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "945768455377",
+    "firebase_url": "https://prevques-lnm-default-rtdb.firebaseio.com",
+    "project_id": "prevques-lnm",
+    "storage_bucket": "prevques-lnm.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:945768455377:android:fd4b3051edd74bdd8079f0",
+        "android_client_info": {
+          "package_name": "com.example.lnmcbmprevques"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "945768455377-5ls2fe8gh36kmebf34mr3ba3f6kpmspl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCPPchXWPZbYEMA59TX0uEbIY5RohevmJ0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "945768455377-5ls2fe8gh36kmebf34mr3ba3f6kpmspl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

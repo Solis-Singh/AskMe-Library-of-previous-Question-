@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Ask me</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="facebook_page">Follow on Facebook</string>
+    <string name="communication">Communication</string>
+    <string name="nav_rate">Rate or Feedback</string>
+    <string name="nav_share">Share</string>
+    <string name="more">More</string>
+    <string name="title_activity_bca501">bca_501</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="lorem_ipsum">
+
+    </string>
+</resources>

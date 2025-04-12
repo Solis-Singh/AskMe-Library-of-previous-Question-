@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.LNMCBMPREVQUES"
+        tools:targetApi="31">
+        <activity
+            android:name=".bca_504"
+            android:exported="false" />
+        <activity
+            android:name=".bca_503"
+            android:exported="false" />
+        <activity
+            android:name=".bca_502"
+            android:exported="false" />
+        <activity
+            android:name=".bca_501"
+            android:exported="false"
+            android:label="@string/title_activity_bca501"
+            android:theme="@style/Theme.LNMCBMPREVQUES" />
+        <activity
+            android:name=".bca_404"
+            android:exported="false" />
+        <activity
+            android:name=".bca_403"
+            android:exported="false" />
+        <activity
+            android:name=".bca_402"
+            android:exported="false" />
+        <activity
+            android:name=".bca_401"
+            android:exported="false" />
+        <activity
+            android:name=".bca_304"
+            android:exported="false" />
+        <activity
+            android:name=".bca_303"
+            android:exported="false" />
+        <activity
+            android:name=".bca_302"
+            android:exported="false" />
+        <activity
+            android:name=".bca_301"
+            android:exported="false" />
+        <activity
+            android:name=".bca_204"
+            android:exported="false" />
+        <activity
+            android:name=".bca_203"
+            android:exported="false" />
+        <activity
+            android:name=".bca_202"
+            android:exported="false" />
+        <activity
+            android:name=".bca_201"
+            android:exported="false" />
+        <activity
+            android:name=".bca_104"
+            android:exported="false" />
+        <activity
+            android:name=".bca_103"
+            android:exported="false" />
+        <activity
+            android:name=".bca_102"
+            android:exported="false" />
+        <activity
+            android:name=".bca_101"
+            android:exported="false" />
+        <activity
+            android:name=".bca5sem"
+            android:exported="false" />
+        <activity
+            android:name=".bca4sem"
+            android:exported="false" />
+        <activity
+            android:name=".bca3sem"
+            android:exported="false" />
+        <activity
+            android:name=".bca2sem"
+            android:exported="false" />
+        <activity
+            android:name=".bca1sem"
+            android:exported="false" />
+        <activity
+            android:name=".bca"
+            android:exported="false" />
+        <activity
+            android:name=".mca_cs_505"
+            android:exported="false" />
+        <activity
+            android:name=".mca_cs_504"
+            android:exported="false" />
+        <activity
+            android:name=".mca_cs_503"
+            android:exported="false" />
+        <activity
+            android:name=".mca_cs_502"
+            android:exported="false" />
+        <activity
+            android:name=".mca_cs_501"
+            android:exported="false" />
+        <activity
+            android:name=".mca5sem"
+            android:exported="false" />
+        <activity
+            android:name=".mca_cs_405"
+            android:exported="false" />
+        <activity
+            android:name=".mca_cs_404"
+            android:exported="false" />
+        <activity
+            android:name=".mca_cs_403"
+            android:exported="false" />
+        <activity
+            android:name=".mca_cs_402"
+            android:exported="false" />
+        <activity
+            android:name=".mca_cs_401"
+            android:exported="false" />
+        <activity
+            android:name=".mca4sem"
+            android:exported="false" />
+        <activity
+            android:name=".mca_cs_305"
+            android:exported="false" />
+        <activity
+            android:name=".mca_cs_304"
+            android:exported="false" />
+        <activity
+            android:name=".mca_cs_303"
+            android:exported="false" />
+        <activity
+            android:name=".mca_cs_302"
+            android:exported="false" />
+        <activity
+            android:name=".mca_cs_301"
+            android:exported="false" />
+        <activity
+            android:name=".mca3sem"
+            android:exported="false" />
+        <activity
+            android:name=".mca_cs_205"
+            android:exported="false" />
+        <activity
+            android:name=".mca_cs_204"
+            android:exported="false" />
+        <activity
+            android:name=".mca_cs_203"
+            android:exported="false" />
+        <activity
+            android:name=".mca_cs_202"
+            android:exported="false" />
+        <activity
+            android:name=".mca_cs_201"
+            android:exported="false" />
+        <activity
+            android:name=".mca2sem"
+            android:exported="false" />
+        <activity
+            android:name=".mca_cs_105"
+            android:exported="false" />
+        <activity
+            android:name=".mca_cs_104"
+            android:exported="false" />
+        <activity
+            android:name=".mca_cs_103"
+            android:exported="false" />
+        <activity
+            android:name=".mca_cs_102"
+            android:exported="false" />
+        <activity
+            android:name=".pdf"
+            android:exported="false" />
+        <activity
+            android:name=".mca_cs_101"
+            android:exported="false" />
+        <activity
+            android:name=".mca1sem"
+            android:exported="false" />
+        <activity
+            android:name=".mca"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SplashScreen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

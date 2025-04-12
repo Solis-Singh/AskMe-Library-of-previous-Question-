@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gre"
+    tools:context=".bca">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/constraintLayout"
+        android:layout_marginTop="0dp">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:background="@drawable/main_theme"
+            app:title="𝙰𝚜𝚔 𝙼𝚎"
+            app:titleMarginStart="100dp"
+            tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/titleName"
+                android:layout_width="wrap_content"
+                android:layout_height="42dp"
+                android:layout_marginStart="90dp"
+                android:layout_marginTop="60dp"
+                android:text="ꌚꍟꁒꍟꌚ꓅ꍟ꒓"
+                android:textColor="#EC058E"
+                android:textSize="40sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"/>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="175dp"
+                android:id="@+id/row1"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp"
+                android:padding="10dp"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/titleName">
+
+                <soup.neumorphism.NeumorphCardView
+                    android:layout_width="0dp"
+                    android:layout_height="150dp"
+                    android:id="@+id/bcasem1"
+                    app:cardBackgroundColor="@color/ic_launcher_background"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    app:cardElevation="20dp"
+                    app:cardCornerRadius="20dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:layout_width="200dp"
+                            android:layout_height="250dp"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="0dp"
+                            android:src="@drawable/bca1logo" />
+
+
+                    </RelativeLayout>
+                </soup.neumorphism.NeumorphCardView>
+
+                <soup.neumorphism.NeumorphCardView
+                    android:layout_width="0dp"
+                    android:layout_height="150dp"
+                    android:id="@+id/bcasem2"
+                    android:layout_margin="10dp"
+                    app:cardBackgroundColor="@color/ic_launcher_background"
+                    android:layout_weight="1"
+                    app:cardElevation="20dp"
+                    app:cardCornerRadius="20dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+
+                        <ImageView
+                            android:layout_width="200dp"
+                            android:layout_height="250dp"
+                            android:src="@drawable/bca2logo"
+                            android:layout_marginTop="0dp"
+                            android:layout_centerHorizontal="true"/>
+
+
+                    </RelativeLayout>
+                </soup.neumorphism.NeumorphCardView>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="175dp"
+                android:id="@+id/row2"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp"
+                android:padding="10dp"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/row1">
+
+                <soup.neumorphism.NeumorphCardView
+                    android:layout_width="0dp"
+                    android:layout_height="150dp"
+                    android:id="@+id/bcasem3"
+                    app:cardBackgroundColor="@color/ic_launcher_background"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    app:cardElevation="20dp"
+                    app:cardCornerRadius="20dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:layout_width="200dp"
+                            android:layout_height="250dp"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="0dp"
+                            android:src="@drawable/bca3logo" />
+
+
+                    </RelativeLayout>
+                </soup.neumorphism.NeumorphCardView>
+
+                <soup.neumorphism.NeumorphCardView
+                    android:layout_width="0dp"
+                    android:layout_height="150dp"
+                    android:id="@+id/bcasem4"
+                    android:layout_margin="10dp"
+                    app:cardBackgroundColor="@color/ic_launcher_background"
+                    android:layout_weight="1"
+                    app:cardElevation="20dp"
+                    app:cardCornerRadius="20dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+
+                        <ImageView
+                            android:layout_width="200dp"
+                            android:layout_height="250dp"
+                            android:src="@drawable/bca4logo"
+                            android:layout_marginTop="0dp"
+                            android:layout_centerHorizontal="true"/>
+
+
+                    </RelativeLayout>
+                </soup.neumorphism.NeumorphCardView>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="200dp"
+                android:layout_height="175dp"
+                android:layout_marginLeft="85dp"
+                android:id="@+id/row3"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp"
+                android:padding="10dp"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/row2">
+
+                <soup.neumorphism.NeumorphCardView
+                    android:layout_width="0dp"
+                    android:layout_height="150dp"
+                    android:id="@+id/bcasem5"
+                    app:cardBackgroundColor="@color/ic_launcher_background"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    app:cardElevation="20dp"
+                    app:cardCornerRadius="20dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:id="@+id/bca5"
+                            android:layout_width="200dp"
+                            android:layout_height="250dp"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="0dp"
+                            android:src="@drawable/bca5logo" />
+
+
+                    </RelativeLayout>
+                </soup.neumorphism.NeumorphCardView>
+
+            </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

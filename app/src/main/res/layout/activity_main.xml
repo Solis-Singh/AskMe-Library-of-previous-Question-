@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/gre"
+    tools:ignore="SpeakableTextPresentCheck"
+    android:id="@+id/scrolllayout"
+    android:fitsSystemWindows="true"
+    tools:openDrawer="start">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/constraintLayout"
+        android:layout_marginTop="0dp">
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:background="@drawable/main_theme"
+                app:title="𝙰𝚜𝚔 𝙼𝚎"
+                app:titleMarginStart="100dp"
+                tools:ignore="MissingConstraints" />
+
+
+            <ImageView
+                android:id="@+id/titleName"
+                android:layout_width="250dp"
+                android:layout_height="150dp"
+                android:layout_marginStart="55dp"
+                android:layout_marginTop="55dp"
+                android:src="@drawable/applogo"
+                app:layout_constraintStart_toStartOf="@id/toolbar"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="190dp"
+                android:id="@+id/row1"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp"
+                android:padding="10dp"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/titleName">
+
+                <soup.neumorphism.NeumorphCardView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:id="@+id/cardV1"
+                    app:cardBackgroundColor="@color/ic_launcher_background"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    app:cardElevation="20dp"
+                    app:cardCornerRadius="20dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:id="@+id/mca1"
+                            android:layout_width="200dp"
+                            android:layout_height="250dp"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="0dp"
+                            android:src="@drawable/courselogo1" />
+
+
+                    </RelativeLayout>
+                </soup.neumorphism.NeumorphCardView>
+
+                <soup.neumorphism.NeumorphCardView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:id="@+id/cardV2"
+                    android:layout_margin="10dp"
+                    app:cardBackgroundColor="@color/ic_launcher_background"
+                    android:layout_weight="1"
+                    app:cardElevation="20dp"
+                    app:cardCornerRadius="20dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+
+                        <ImageView
+                            android:layout_width="200dp"
+                            android:layout_height="250dp"
+                            android:id="@+id/bca1"
+                            android:src="@drawable/courselogo2"
+                            android:layout_marginTop="0dp"
+                            android:layout_centerHorizontal="true"/>
+
+
+                    </RelativeLayout>
+                </soup.neumorphism.NeumorphCardView>
+
+
+            </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>
+

@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/gre"
+    tools:context=".mca2sem">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/constraintLayout"
+        android:layout_marginTop="0dp">
+
+
+        <TextView
+            android:id="@+id/titleName"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_marginStart="120dp"
+            android:layout_marginTop="30dp"
+            android:fontFamily="@font/aclonica"
+            android:text="Pаpёя"
+            android:textColor="#EC058E"
+            android:textSize="40sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="175dp"
+            android:id="@+id/row1"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:padding="10dp"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/titleName">
+
+            <soup.neumorphism.NeumorphCardView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:id="@+id/cs201"
+                app:cardBackgroundColor="@color/ic_launcher_background"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                app:cardElevation="20dp"
+                app:cardCornerRadius="20dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="CS-201"
+                        android:textColor="#12EAEA"
+                        android:textSize="33sp"
+                        android:fontFamily="@font/aclonica"
+                        android:textStyle="italic"
+                        android:textAlignment="center"
+                        android:layout_marginTop="35dp"/>
+
+
+
+                </RelativeLayout>
+
+            </soup.neumorphism.NeumorphCardView>
+
+            <soup.neumorphism.NeumorphCardView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:id="@+id/cs202"
+                android:layout_margin="10dp"
+                app:cardBackgroundColor="@color/ic_launcher_background"
+                android:layout_weight="1"
+                app:cardElevation="20dp"
+                app:cardCornerRadius="20dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="CS-202"
+                        android:textColor="#12EAEA"
+                        android:textSize="33sp"
+                        android:fontFamily="@font/aclonica"
+                        android:textStyle="italic"
+                        android:textAlignment="center"
+                        android:layout_marginTop="35dp"/>
+
+
+                </RelativeLayout>
+            </soup.neumorphism.NeumorphCardView>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="175dp"
+            android:id="@+id/row2"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:padding="10dp"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/row1">
+
+            <soup.neumorphism.NeumorphCardView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:id="@+id/cs203"
+                app:cardBackgroundColor="@color/ic_launcher_background"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                app:cardElevation="20dp"
+                app:cardCornerRadius="20dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="CS-203"
+                        android:textColor="#12EAEA"
+                        android:textSize="33sp"
+                        android:fontFamily="@font/aclonica"
+                        android:textStyle="italic"
+                        android:textAlignment="center"
+                        android:layout_marginTop="35dp"/>
+
+
+                </RelativeLayout>
+            </soup.neumorphism.NeumorphCardView>
+
+            <soup.neumorphism.NeumorphCardView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:id="@+id/cs204"
+                android:layout_margin="10dp"
+                app:cardBackgroundColor="@color/ic_launcher_background"
+                android:layout_weight="1"
+                app:cardElevation="20dp"
+                app:cardCornerRadius="20dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="CS-204"
+                        android:textColor="#12EAEA"
+                        android:textSize="33sp"
+                        android:fontFamily="@font/aclonica"
+                        android:textStyle="italic"
+                        android:textAlignment="center"
+                        android:layout_marginTop="35dp"/>
+
+
+                </RelativeLayout>
+            </soup.neumorphism.NeumorphCardView>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="210dp"
+            android:layout_height="175dp"
+            android:layout_marginLeft="85dp"
+            android:id="@+id/row3"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:padding="10dp"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/row2">
+
+            <soup.neumorphism.NeumorphCardView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:id="@+id/cs205"
+                app:cardBackgroundColor="@color/ic_launcher_background"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                app:cardElevation="20dp"
+                app:cardCornerRadius="20dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="CS-205"
+                        android:textColor="#12EAEA"
+                        android:textSize="35sp"
+                        android:fontFamily="@font/aclonica"
+                        android:textStyle="italic"
+                        android:textAlignment="center"
+                        android:layout_marginTop="35dp"/>
+
+
+                </RelativeLayout>
+            </soup.neumorphism.NeumorphCardView>
+
+        </LinearLayout>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</ScrollView>
