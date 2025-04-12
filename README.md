@@ -51,7 +51,8 @@ app/ ├── java/ │ └── com/yourpackage/ │ ├── activities/ �
 ##
 APK Download Links :
 
-https://drive.google.com/drive/u/2/folders/18SrckoGxa_kVrs_IVxL6nQxl5lW9OVpX
+will be available soon.....
+
 
 📫 Contact
 
