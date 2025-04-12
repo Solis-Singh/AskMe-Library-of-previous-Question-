@@ -29,7 +29,7 @@ public class bca extends AppCompatActivity implements View.OnClickListener{
         cardView5.setOnClickListener(this);
 
     }
-
+// Comment
     @Override
     public void onClick(View view) {
         switch(view.getId()){
