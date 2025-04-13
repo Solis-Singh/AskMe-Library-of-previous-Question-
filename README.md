@@ -53,7 +53,7 @@ app/ ├── java/ │ └── com/yourpackage/ │ ├── activities/ �
 ##
 APK Download Links :
 
-fisrt link : https://dlupload.com/filedetail/855735770
+first link : https://dlupload.com/filedetail/855735770
 
 second link :  https://uploadrar.com/ta3qy7zdvax7
 
